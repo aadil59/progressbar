@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+button {
+  padding: 10px 0;
+  border: 0 none;
+  background-color: #333;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 65px;
+  margin-right: 1rem;
+}
+.progress-bar {
+  border: 1px solid #cdcdcc;
+  height: 20px;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-grow: 0;
+  padding: 3px;
+  flex-basis: 300px;
+}
+.bar {
+  background: #000;
+  height: 100%;
+  border-radius: 1rem;
+}
+.bar.red {
+  background-color: rgb(243, 1, 1);
+}
+.bar.orange {
+  background-color: rgb(248, 188, 1);
+}
+.bar.green {
+  background-color: rgb(1, 212, 173);
+}
